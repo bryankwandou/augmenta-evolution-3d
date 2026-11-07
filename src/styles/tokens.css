@@ -1,0 +1,50 @@
+:root {
+  /* Light Mode Palette */
+  --color-primary: #ea680c;
+  --color-primary-variant: #c83206;
+  --color-secondary: #990804;
+  --color-background: #c83206;
+  --color-surface: rgba(26, 13, 8, 0.9);
+  --color-on-primary: #ffffff;
+  --color-on-surface: #ffffff;
+  --color-error: #ff3b30;
+  --color-on-error: #ffffff;
+  --color-outline: rgba(255, 255, 255, 0.25);
+
+  /* Typography Scale */
+  --font-sans: 'Inter', 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 32px;
+  --text-4xl: 40px;
+  --text-5xl: 48px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #ea680c;
+    --color-primary-variant: #b82904;
+    --color-secondary: #850502;
+    --color-background: #b82904;
+    --color-surface: rgba(20, 9, 5, 0.92);
+    --color-on-primary: #ffffff;
+    --color-on-surface: #ffffff;
+    --color-error: #ff453a;
+    --color-on-error: #ffffff;
+    --color-outline: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.font-augmenta-sans {
+  font-family: var(--font-sans);
+}
+
+.font-augmenta-mono {
+  font-family: var(--font-mono);
+}
